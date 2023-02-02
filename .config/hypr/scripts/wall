@@ -5,5 +5,5 @@ swww_fork=~/.config/hypr/scripts/tools/swww
 $swww_fork query || $swww_fork init
 $swww_fork img $1 --transition-fps 60 --transition-type grow --transition-pos 0.854,0.977 --transition-duration 2
 wal -i $1
-wal-telegram --tiled
+~/.config/hypr/scripts/tools/wal-telegram --tiled
 wpg -a $1
